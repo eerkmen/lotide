@@ -8,9 +8,9 @@ const assertEqual = function(actual, expected) {
 };
 
 const tail = function(parameter) {
-  let lastValue = parameter [-1]
-  return lastValue
-}
+  let lastValue = parameter [-1];
+  return lastValue;
+};
 
 // TEST CODE
 const words = ["Yo Yo", "Lighthouse", "Labs"];
