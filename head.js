@@ -7,6 +7,10 @@ const assertEqual = function(actual, expected) {
   }
 };
 
+const head = function(parameter) {
+  let firstValue = parameter [0]
+  return firstValue
+}
 
 // TEST CODE
 assertEqual(head([5,6,7]), 5);
