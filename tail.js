@@ -6,3 +6,8 @@ const assertEqual = function(actual, expected) {
     console.log(`🛑🛑🛑 Assertion Failed: ${actual} !== ${expected}`);
   }
 };
+
+const tail = function(parameter) {
+  let lastValue = parameter [-1]
+  return lastValue
+}
