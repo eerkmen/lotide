@@ -6,6 +6,7 @@
     console.log(`🛑🛑🛑 Assertion Failed: ${actual} !== ${expected}`);
   }
 };*/
+const assertEqual = require('./assertEqual');
 
 const head = function(parameter) {
   let firstValue = parameter [0];
