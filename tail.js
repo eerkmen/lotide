@@ -1,4 +1,5 @@
 // FUNCTION IMPLEMENTATION
+const assertEqual = require('./assertEqual');
 
 const tail = function(parameter) {
   let lastValue = parameter [-1];
