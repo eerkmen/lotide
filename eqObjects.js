@@ -7,6 +7,9 @@ const eqObjects = function(obj1, obj2) {
   if (object1.length !== object2.length) {
     return false;
   } else {
-    
+    for (let a of object1) {
+     
+    }
+    return true;
   }
 };
