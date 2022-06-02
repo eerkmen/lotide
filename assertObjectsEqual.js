@@ -11,3 +11,5 @@ const assertObjectsEqual = function(a, b) {
     `🟢🟢🟢 Asstertion Passed: ${inspect(a)} === ${inspect(b)}`
   );
 };
+
+module.exports = assertObjectsEqual;
