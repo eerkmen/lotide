@@ -14,3 +14,6 @@ const countOnly = function(allItems) {
   }
   return results;
 }
+
+const countLetters= "lighthouse in the house" ;
+console.log(countOnly(countLetters))
