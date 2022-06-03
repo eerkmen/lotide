@@ -6,6 +6,11 @@ const countOnly = function(allItems) {
   for (const item of allItems) {
     // inside the loop:
    
+    if (results[item]) {
+      results[item] += 1;
+    } else {
+      results[item] = 1;
+    }
   }
   return results;
 }
