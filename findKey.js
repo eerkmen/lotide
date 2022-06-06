@@ -8,3 +8,5 @@ const findKey = function(a, b) {
   }
   return undefined;
 };
+
+module.exports = findKey;
