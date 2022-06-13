@@ -18,3 +18,6 @@ const letterPositions = function(allItems) {
   return results;
 };
 
+
+const position= "hello" ;
+assertArraysEqual(letterPositions("hello").e, [1]);
