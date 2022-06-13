@@ -20,3 +20,7 @@ const eqArrays = function(array1, array2) {
     return true
   }
 }
+
+const without = function(source, itemsToRemove) {
+ 
+};
