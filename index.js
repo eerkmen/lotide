@@ -20,3 +20,24 @@ const countLetters = require('./countLetters');
 
 
 
+
+
+module.exports = {
+  assertObjectsEqual: assertObjectsEqual,
+  assertArraysEqual: assertArraysEqual,
+  assertEqual: assertEqual,
+  eqObjects: eqObjects,
+  eqArrays: eqArrays,
+  head: head,
+  tail: tail,
+  middle: middle,
+  without: without,
+  takeUntil: takeUntil,
+  map: map,
+  letterPositions: letterPositions,
+  flatten: flatten,
+  findKey: findKey,
+  findKeyByValue: findKeyByValue,
+  countOnly: countOnly,
+  countLetters: countLetters,
+};
