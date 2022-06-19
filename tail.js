@@ -6,6 +6,8 @@ const tail = function(parameter) {
   return lastValue;
 };
 
+
+module.exports = tail;
 // TEST CODE
 const words = ["Yo Yo", "Lighthouse", "Labs"];
 tail(words); // no need to capture the return value since we are not checking it
