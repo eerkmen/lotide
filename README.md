@@ -43,3 +43,13 @@ The following functions are currently implemented:
   *map.js: Creates a new array 
   *takeUntil.js: Until a truthy value returns collects elements.
   *findKey.js: Returns the first key for which the callback returns a truthy value.
+
+## Setup
+  Install:  
+  npm install @eerkmen/lotide
+
+  Require:
+  const _ = require('@eerkmen/lotide');
+  
+  Call:
+  const results = _.tail([1, 2, 3]) // => [2, 3]
