@@ -1,19 +1,21 @@
 const assertEqual = require('./assertEqual');
 
-const countOnly = function(allItems) {
-  const results = {};
+const countLetters = function(b) {
+  if (typeof str !== 'string') {
+    return console.log('Please input a string');
+  }
 
-  for (const item of allItems) {
-    // inside the loop:
-   
-    if (results[item]) {
-      results[item] += 1;
+  let end = {};
+  for (const a of b) {
+    if (!end[a]) {
+      end[a] = 1;
     } else {
-      results[item] = 1;
+      end[a] += 1;
     }
   }
-  return results;
-}
+  return end;
+};
 
-const countLetters= "lighthouse in the house" ;
-console.log(countOnly(countLetters))
+module.exports = countLetters;
+
+
