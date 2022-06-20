@@ -21,3 +21,4 @@ const letterPositions = function(allItems) {
 
 const position= "hello" ;
 assertArraysEqual(letterPositions("hello").e, [1]);
+module.exports = letterPositions;
