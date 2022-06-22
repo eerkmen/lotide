@@ -1,9 +1,6 @@
 
 const assertEqual = require('../assertEqual');
 
-const head = function(parameter) {
-  let firstValue = parameter [0];
-  return firstValue;
-};
-
-module.exports = assertEqual;
+assertEqual('Lighthouse Labs', 'Bootcamp');
+assertEqual(30, 30);
+assertEqual(21, 12);
